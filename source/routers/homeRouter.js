@@ -251,10 +251,10 @@ Router.post("/sendmail",(req,res)=>{
     auth: {
       type: 'OAuth2',
       user: 'sharma.khushi.221102@gmail.com',
-      pass: 'Rishi@1970',
-      clientId: '500005259447-5taqpb40fiqp6346npfgp45lio0fji2o.apps.googleusercontent.com',
-      clientSecret: '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',
-      refreshToken: '1//04hK-kgG9nahdCgYIARAAGAQSNwF-L9IrCnSdNnwfEUf0-YcEmh-eBJ45c2WW1xCv4aoKco8L8gFuBOeVlCmeTfmzOzKoAPtpqAA'
+      pass: '',
+      clientId: '',
+      clientSecret: '',
+      refreshToken: ''
     }
   });
 
