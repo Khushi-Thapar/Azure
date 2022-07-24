@@ -22,7 +22,7 @@ Router.get("/login",(req,res)=>{
 })
 
 Router.get("/register",(req,res)=>{
-    res.render('register',{title :'Fill Form',password:'',email:''})
+    res.render('registermain',{title :'Fill Form',password:'',email:''})
 })
 
 // Router.get("/home",(req,res)=>{
