@@ -1,0 +1,46 @@
+body{
+    background-color: #180618;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.card{
+    border-radius: 50px;
+    background-color: #180618;
+    box-shadow: 5px 5px 10px #371341, -5px -5px 10px #402943;
+    text-align: center;
+    padding: 10%;
+}
+.avatar
+{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 50px);
+}
+.container
+{
+    width: 25vw;
+}
+button#register, button#login{
+    margin: 10px 5px;
+    border-radius: 23px;
+    background-color: transparent;
+    color: #e2a9e0;
+    box-shadow: 5px 5px 8px #471e53, -5px -5px 8px #9d5ea5;
+    padding: 8px;
+    width: 98px;
+    cursor: pointer;
+    
+}
+button#register:hover, button#login:hover {
+    /* box-shadow: 5px 5px 8px #a266b4, -5px -5px 8px #d1a6d6; */
+    text-shadow: #f2e7f2 1px 0 15px;}
